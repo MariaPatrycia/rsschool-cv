@@ -4,8 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Personal information</h1>
+    <div class="wrapper">
+   <header class="header-container">
+       <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#languages">Languages</a>
+            <a href="#work-experience">Work Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Code Example</a>
+            <a href="#footer">Contact</a>
+        </nav>
+   </header>
+
+   <main>
+          <div class="img-me">
+            <img src="../img/photo_2024-07-03 11.31.52.jpeg" alt="myphoto">
+          </div>
+         <h2 class="name">Maria Byczkowska</h2>
+         <h1>Junior Frontend Developer</h1>
+         <div class="buttons">
+            <a href="../files/ecc20aa8-eb95-4303-b484-5034cdd30122.jpeg" download>Download CV</a>
+          </div>
+
+          <section  id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <ul>
+                <li>As a Junior JavaScript Developer with a strong command of English, I am passionate about web development and continually expanding my IT knowledge.</li>
+                    <li> My expertise includes creating dynamic and responsive web applications using JavaScript, HTML, and CSS. I am eager to contribute to innovative projects, enhance my skills, and grow within a collaborative and forward-thinking team environment</li>
+              </ul>
+          </section>
+      
+          <section id="education"  class="education">
+            <h2>Education</h2>
+            <ul>
+              <li><strong>Bialystok University</strong> - Business English, 2019-2022</li>
+              <li><strong>Rolling Scope School</strong> - FrontEnd Developer course, in progress</li>
+            </ul>
+          </section>
+      
+          <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+            <div class="skill">
+                <div class="skill1">
+              <li>HTML, CSS</li>
+              <li>JavaScript</li>
+              <li>Git, GitHub</li>
+            </div>
+            <div class="skill2">
+              <li>Responsive Web Design</li>
+              <li>React</li>
+              <li>Agile/Scrum methodologies</li>
+            </div>
+            <div class="skill3">
+            <li>Analytical thinking</li>
+            <li>Problem solving</li>
+            <li>MySQL, PostgreSQL</li>
+          </div>
+            </div>
+            </ul>
+          </section>
+
+          <section id="languages" class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <div class="langua">
+               <div class="lang1">
+              <li>English C1</li>
+              <li>Polish C1</li>
+            </div>
+            <div class="lang2">
+              <li>French A1</li>
+              <li>German B2</li>
+            </div>
+            <div class="lang3">
+            <li>Belarusian Native</li>
+            <li>Russian Native</li>
+           </div>
+           </div>
+            </ul>
+          </section>
+      
+          <section id="work-experience" class="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+              <li><strong>English Teacher</strong> - Archibald School (March 2021 – June 2024)
+                <ul>
+                  <li>Conducted English language classes for students of various proficiency levels.</li>
+                  <li>Developed and implemented customized lesson plans and materials.</li>
+                  <li>Organized and led extracurricular activities to enhance language learning.</li>
+                </ul>
+              </li>
+              <li><strong>Nonprofit Manager</strong> - Charity Project (September 2020 – August 2021)
+                <ul>
+                  <li>Managed social media accounts across various platforms (Facebook, Instagram).</li>
+                  <li>Collaborated with volunteers and partners to amplify project outreach and engagement.</li>
+                  <li>Analyzed social media performance metrics and adjusted strategies accordingly.</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+
+            <section id="projects"  class="projects">
+                <h2>Projects</h2>
+                <div class="project-div">
+               <a href="https://github.com/MariaPatrycia/projectfrontend"><img src="../img/project.png" class="project-img" alt="project"></a>
+              </div>
+              </section>
+      
+              <section id="codeexample"  class="codeexample">
+                <h2>Code Example</h2>
+               
+                    <code class="code-example">
+                    const firstName = prompt("Name:"); const lastName = prompt("Surname:"); const phoneNumber = prompt("Phone:");
+
+                    const newWindowContent = Name: ${firstName}\n Surname: ${lastName}\n Phone: ${phoneNumber};
+                    
+                    const newWindow = window.open("", "_blank", "width=400,height=400"); newWindow.document.write(<pre>${newWindowContent}</pre>); newWindow.document.close();</code>
+               
+              </section>
+
+         </main>
+
+    <footer id="footer">
+        <a class="git-link" href="https://github.com/MariaPatrycia">GitHub</a>
+        <a class="linkedin-link" href="https://www.linkedin.com/in/maria-byczkowska-2187b8236/">Linkedin</a>
+        <a class="email-link" href="mailto:mariabyczkowska30@gmail.com">Email</a>
+        <a href="tel:+48576597613" class="phone-link">Phone number</a>
+        <a class="school-link" href="https://rs.school/courses/javascript-preschool-ru"><img src="../img/rss.svg" class="img-logo" alt="logo"></a>
+        <div class="year">2024</div>
+      
+    </footer>
+   
+  </div>
+
 </body>
 </html>
