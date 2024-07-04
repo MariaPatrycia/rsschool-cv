@@ -179,19 +179,27 @@ body {
   }
   .langua {
     display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px;
   }
-  .lang2, .lang3 {
-    margin-left: 180px;
-  }
+  .langua li {
+    flex: 1 1 50%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+}
   .skill {
     display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px;
   }
-  .skill2 {
-   margin-left: 110px;
-  }
-  .skill3 {
-    margin-left: 70px;
-  }
+  .skill li {
+    flex: 1 1 50%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+}
+  
   .codeexample {
     font-size: 20px;
     background-color: rgb(200, 143, 200);
