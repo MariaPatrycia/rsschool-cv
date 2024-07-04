@@ -26,7 +26,7 @@
 
    <main>
           <div class="img-me">
-            <img src="../img/photo_2024-07-03 11.31.52.jpeg" alt="myphoto">
+            <img src="../img/myphoto.jpeg" alt="myphoto">
           </div>
          <h2 class="name">Maria Byczkowska</h2>
          <h1>Junior Frontend Developer</h1>
@@ -52,44 +52,29 @@
       
           <section id="skills" class="skills">
             <h2>Skills</h2>
-            <ul>
-            <div class="skill">
-                <div class="skill1">
+            <ul class="skill">
               <li>HTML, CSS</li>
               <li>JavaScript</li>
               <li>Git, GitHub</li>
-            </div>
-            <div class="skill2">
               <li>Responsive Web Design</li>
               <li>React</li>
               <li>Agile/Scrum methodologies</li>
-            </div>
-            <div class="skill3">
             <li>Analytical thinking</li>
             <li>Problem solving</li>
             <li>MySQL, PostgreSQL</li>
-          </div>
-            </div>
+            <li>Figma</li>
             </ul>
           </section>
 
           <section id="languages" class="languages">
             <h2>Languages</h2>
-            <ul>
-                <div class="langua">
-               <div class="lang1">
+            <ul class="langua">
               <li>English C1</li>
               <li>Polish C1</li>
-            </div>
-            <div class="lang2">
               <li>French A1</li>
               <li>German B2</li>
-            </div>
-            <div class="lang3">
             <li>Belarusian Native</li>
             <li>Russian Native</li>
-           </div>
-           </div>
             </ul>
           </section>
       
@@ -128,7 +113,7 @@
 
                     const newWindowContent = Name: ${firstName}\n Surname: ${lastName}\n Phone: ${phoneNumber};
                     
-                    const newWindow = window.open("", "_blank", "width=400,height=400"); newWindow.document.write(<pre>${newWindowContent}</pre>); newWindow.document.close();</code>
+                    const newWindow = window.open("", "_blank", "width=400,height=400"); newWindow.document.write(${newWindowContent}); newWindow.document.close();</code>
                
               </section>
 
