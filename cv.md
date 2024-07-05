@@ -4,7 +4,7 @@
 As a Junior JavaScript Developer with a strong command of English, I am passionate about web development and continually expanding my IT knowledge. 
 My expertise includes creating dynamic and responsive web applications using JavaScript, HTML, and CSS. 
 I am eager to contribute to innovative projects, enhance my skills, and grow within a collaborative and forward-thinking team environment.
-**************
+
 
 ## Contact
  - Email: maribyczkowska30@gmail.com
